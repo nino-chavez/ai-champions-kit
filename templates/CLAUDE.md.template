@@ -1,0 +1,63 @@
+# CLAUDE.md — [Project or Claude Project name]
+
+A good CLAUDE.md is the single highest-leverage thing you can do for any project that uses Claude.
+Keep it under 300 lines. Assume anyone reading it is smart and in a hurry.
+
+## What this project is
+
+One paragraph. What it does, who uses it, why it exists.
+
+## Stack / tools
+
+- Language(s):
+- Framework(s):
+- Data store(s):
+- Hosting / runtime:
+- External services: [Salesforce, Confluence, NotebookLM, Make.com, etc.]
+
+## People
+
+- Owner:
+- On-call / primary contact:
+- Adjacent teams:
+
+## Conventions
+
+Things Claude (and new humans) should follow without being asked each time.
+
+- Naming: [kebab-case / camelCase / etc]
+- Commit style: [conventional / descriptive / custom]
+- Branch strategy: [trunk / feature branches / etc]
+- PR review: [required reviewers / auto-merge rules]
+
+## Data handling
+
+- PII policy: see `templates/pii-policy.template.md` if you haven't customized one yet
+- What never leaves this repo / tool:
+- What's safe to paste into AI tools:
+
+## Known gotchas
+
+Things that have bitten us before. Short, specific, honest.
+
+- Example: "Our Marketo API rate-limits at 100 req/min — batch instead of looping"
+- Example: "Confluence page IDs look numeric but include the space key — always include it"
+
+## Commands
+
+```bash
+# development
+npm run dev
+
+# tests
+npm test
+
+# deploy
+[your command]
+```
+
+## What Claude should never do here
+
+- Never commit without running tests
+- Never paste customer data into a public AI tool
+- Never modify [specific-file] without flagging it first

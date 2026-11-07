@@ -1,0 +1,9 @@
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.tmp
+node_modules/
+.env
+.env.local
+.claude/
